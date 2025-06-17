@@ -38,4 +38,7 @@ https://aclanthology.org/2023.crowdmt-1.4/
 }
 
 ```
+---
+**Tags**: machine-translation · domain-adaptation · data-selection · translation · domain-specific-translation · synthetic-data · sentence-transformers · python-tool
+---
 
