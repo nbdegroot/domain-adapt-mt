@@ -1,6 +1,6 @@
 # Domain-Adapt-MT
 A Python Tool for Selecting Domain-Specific (Contextually Similar Data) for Machine Translation.
-This Python tool is based on our earlier implementation:  🔗 [JoyeBright/DataSelection-NMT](https://github.com/JoyeBright/DataSelection-NMT)  
+This Python tool is based on our earlier work:  🔗 [JoyeBright/DataSelection-NMT](https://github.com/JoyeBright/DataSelection-NMT)  
 
 ## How to use
 1. If you don't have conda installed on your machine, install it by following the instructions at this link: <br> https://docs.conda.io/projects/conda/en/latest/user-guide/install/<br>
