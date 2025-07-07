@@ -11,8 +11,10 @@ import numpy as np
 import pandas as pd
 import math
 import os
+import time
 
 if __name__ == '__main__':
+    start_time = time.time()  # Start timing
     #----------------------------------
     # Takes the arguments from the input
     #----------------------------------
@@ -179,3 +181,4 @@ if __name__ == '__main__':
             dat.to_csv("final_similar_" + str(i+1)+".csv",index=True)
         else:
             dat.to_csv(FileName + "_" + str(i+1) + ".csv",index=True)
+    print(f"Execution time: {(time.time() - start_time) / 60:.2f} minutes")
