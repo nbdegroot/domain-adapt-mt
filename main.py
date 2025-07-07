@@ -181,4 +181,5 @@ if __name__ == '__main__':
             dat.to_csv("final_similar_" + str(i+1)+".csv",index=True)
         else:
             dat.to_csv(FileName + "_" + str(i+1) + ".csv",index=True)
-    print(f"Execution time: {(time.time() - start_time) / 60:.2f} minutes")
+            
+    print(f"Execution time: {(time.time() - start_time) / 60:.2f} minutes") # end of time
